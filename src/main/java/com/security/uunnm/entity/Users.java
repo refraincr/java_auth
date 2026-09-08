@@ -1,0 +1,16 @@
+package com.security.uunnm.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name = "t_user")
+public class Users {
+    @Id
+    private Long id;
+    private String username;
+    private String password;
+}
