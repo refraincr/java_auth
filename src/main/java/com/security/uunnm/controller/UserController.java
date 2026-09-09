@@ -1,7 +1,6 @@
-package com.security.uunnm.controler;
+package com.security.uunnm.controller;
 
 import com.security.uunnm.entity.Users;
-import com.security.uunnm.services.MyUserDetailsService;
 import com.security.uunnm.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

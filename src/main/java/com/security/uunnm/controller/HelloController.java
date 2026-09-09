@@ -1,4 +1,4 @@
-package com.security.uunnm.controler;
+package com.security.uunnm.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;

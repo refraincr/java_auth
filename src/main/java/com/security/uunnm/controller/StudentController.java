@@ -1,4 +1,4 @@
-package com.security.uunnm.controler;
+package com.security.uunnm.controller;
 
 import com.security.uunnm.entity.Students;
 import org.springframework.web.bind.annotation.*;
